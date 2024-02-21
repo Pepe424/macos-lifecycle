@@ -1,6 +1,16 @@
 
 # Windows to MAC pain transition
 
+## Devices
+
+[Hub](https://eu.ugreen.com/products/ugreen-usb-c-7-in-1-hub-with-4k-60hz-hdmi?variant=46973588078940)
+
+ - Support for HDMI 4k 60hz
+
+[Mouse](https://www.logitech.com/cs-cz/products/mice/mx-master-3s.910-006559.html)
+
+ - Use the one for Windows (it comes with additional USB receiver)
+
 ## Tips & Tricks
 
 ### Drag and Drop files
@@ -14,6 +24,10 @@
 ### Open downloaded apps
 
 Usually when you try to open a downloaded application, you will get a pop-up saying that the developer cannot be verified. This is solved by opening it once or twice with a two-finger click or right-click.
+
+![Open app](open_app_left_click.png "Left click")\
+
+![Open app](open_app_right_click.png "Right click")\
 
 ### Install apps
 
