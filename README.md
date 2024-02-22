@@ -155,6 +155,7 @@ Unfortunately, sandboxing also means that certain actions/tasks can't be complet
 ### [BetterDisplay](https://github.com/waydabber/BetterDisplay)
 
  - It lets you convert your displays to fully scalable screens, manage display configuration overrides, allows brightness and color control
+ - Note: macos does not support [MST](https://i-tec.pro/en/multi-stream-transport-mst/)
 
 ### [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 
