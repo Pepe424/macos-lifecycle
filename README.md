@@ -10,8 +10,23 @@
 [Mouse](https://www.logitech.com/cs-cz/products/mice/mx-master-3s.910-006559.html)
 
  - Use the one for Windows (it comes with additional USB receiver)
+ - Do not buy Apple Magic Mouse - it sucks, save your carpal tunel!
 
 ## Tips & Tricks
+
+### Apple watch
+
+ - If you wear them, your macbook will automatically unlock
+
+### USB disk formatting
+
+ - macos does not suppor writing to NTFS formating
+ - for cross platform support is best to use exFAT or FAT32 (I personally have two partitions with different formating on my UBS drive)
+ - Advice: buy flash drive with USB A and C together, like this [one](https://www.alza.cz/sandisk-ultra-dual-drive-luxe-256gb-d5838635.htm)
+
+### Enter click in finder
+
+ - Won't open the file but rename it
 
 ### Drag and Drop files
 
@@ -21,17 +36,31 @@
 
  - Press `spacebar` 
 
+### Forget mouse
+
+ - Try to learn macos shortcuts
+	 - Quit app `CMD + Q` Some apps will quit when you click the red x and some wont't. This shortcut will ensure that it always quits
+	 - Close window `CMD + W` 
+	 - New tab `CMD + T` 
+	 - Copy `CMD + C` First you select the file and then when you decide if you want to move or copy it. `CMD + X` works in most applications but not in finder
+	 - Paste `CMD + V` 
+	 - Move `CMD + OPT + V` 
+	 - Spotlight `CMD + spacebar`
+	 - Screenshot `SHIFT + CMD + 4` Default save location is Desktop. Save to clipboard `SHIFT + CMD + CTRL + 4` More [here](https://support.apple.com/en-us/102646)
+
 ### Open downloaded apps
 
 Usually when you try to open a downloaded application, you will get a pop-up saying that the developer cannot be verified. This is solved by opening it once or twice with a two-finger click or right-click.
 
-![Open app](open_app_left_click.png "Left click")\
-
-![Open app](open_app_right_click.png "Right click")\
+![Open app](open_app_left_click.png "Left click")
+![Open app](open_app_right_click.png "Right click")
 
 ### Install apps
 
  - Applications are usually installed by moving the `.app` to the Applications folder 
+ - Maybe you need firt enable instaltion 3rd party apps (outside of appstore)
+
+![3rd](enable_3rd_app.png "Settings")
  
 ### Uninstall apps
 
@@ -87,7 +116,7 @@ Unfortunately, sandboxing also means that certain actions/tasks can't be complet
 
  - Open source but unusable [UTM](https://github.com/utmapp/UTM)
  - Pricey but best [Parallels Desktop](https://www.parallels.com/products/desktop/)
-	 - Contact me for alternative
+	 - Official support for Windows on ARM
 
 ## Useful apps
 
@@ -103,6 +132,7 @@ Unfortunately, sandboxing also means that certain actions/tasks can't be complet
 ### [AltTab](https://github.com/lwouis/alt-tab-macos)
 
  - AltTab brings the power of Windows alt-tab to macOS
+ - macos by default `CMD + TAB` show opened apps, not windows
 
 ### [Mac Mouse Fix](https://github.com/noah-nuebling/mac-mouse-fix)
 
@@ -138,6 +168,10 @@ Unfortunately, sandboxing also means that certain actions/tasks can't be complet
 
  - Similar to KeepYouAwake
 
+### [AlDente](https://apphousekitchen.com/)
+
+ - The ALL-IN-ONE charge Limiter App for MacBooks
+
 ### [Aerial](https://github.com/JohnCoates/Aerial)
 
  - Aerial is a Mac screensaver (macOS 10.12 or later) based on the new Apple TV screensaver that displays the Aerial movies Apple shot over New York, San Francisco, Hawaii, China, etc.
@@ -157,6 +191,7 @@ Unfortunately, sandboxing also means that certain actions/tasks can't be complet
 ### [Alfred](https://www.alfredapp.com/)
 
  - Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac.
+ - It has build in clipboard history
 
 ### [Raycast](https://www.raycast.com/)
 
@@ -172,6 +207,18 @@ Unfortunately, sandboxing also means that certain actions/tasks can't be complet
 
  - Is the fast, light, and easy way to run **Docker** containers and Linux machines on macOS
  - It's a supercharged WSL and Docker Desktop alternative, all in one easy-to-use app.
+
+### [Brave](https://github.com/brave/brave-browser)
+
+ - Chromium based web browser with build-in adblocker
+
+### [Min](https://github.com/minbrowser/min)
+
+ - Min is a fast, minimal browser that protects your privacy. It includes an interface designed to minimize distractions
+
+### [Arc](https://arc.net/)
+
+ - Arc is the Chrome replacement I’ve been waiting for
 
 ### [OBS](https://github.com/obsproject/obs-studio)
 
@@ -201,13 +248,18 @@ Unfortunately, sandboxing also means that certain actions/tasks can't be complet
 ## Others
 
  - Cork - homebrew GUI
+ - Dropzone - drop file to menu bar
  - Visual Studio Code
  - Karabiner - A powerful and stable keyboard customizer for macOS
  - RDP - Microsoft Remote Desktop
  - MultiPresenter
- - OnyX - cleaner for macos
+ - CleanMyMac X - paid macos cleaner
+ - OnyX - free cleaner for macos
  - Stats - macOS system monitor in your menu bar
  - TeamViewer
  - iTerm2 - replacement for Terminal
+ - Xcode - IDE for apple platform
 
-> Version of this document: 0.1
+## Note
+
+> Version of this document: 0.2
